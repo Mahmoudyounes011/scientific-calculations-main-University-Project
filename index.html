@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8" />
+    <title>parachutist fall simulation</title>
+    <link rel="stylesheet" href="/styles/main.css" />
+  </head>
+  <body>
+    <canvas id="webgl"></canvas>
+    <div id="data">
+      <div class="data-item-container">
+        <p>velocity</p>
+        <p id="velocity"></p>
+      </div>
+      <div class="data-item-container">
+        <p>acceleration</p>
+        <p id="acceleration"></p>
+      </div>
+      <div class="data-item-container">
+        <p>Drag Force</p>
+        <p id="drag-force"></p>
+      </div>
+      <div class="data-item-container">
+        <p>jump time</p>
+        <p id="jump-time"></p>
+      </div>
+      <!-- <div class="data-item-container">
+        <p>angle with horizen</p>
+        <p id="angel-horizen"></p>
+      </div> -->
+    </div>
+    <p id="info-text">click "Space" to Jump</p>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
